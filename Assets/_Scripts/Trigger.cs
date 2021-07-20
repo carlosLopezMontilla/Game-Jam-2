@@ -8,10 +8,11 @@ public class Trigger : MonoBehaviour
     public Enemy enemy;
     public PlayerPosition playerPosition;
     public string enemyTag;
-
+    public int healthPoints, currentHealth;
     public void Start()
     {
         haveAnEnemy = false;
+        currentHealth = healthPoints;
     }
     private void OnTriggerStay(Collider other)
     {
