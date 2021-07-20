@@ -7,12 +7,15 @@ public class Trigger : MonoBehaviour
     public bool haveAnEnemy;
     public Enemy enemy;
     public PlayerPosition playerPosition;
+    public HealthSystem hp;
     public string enemyTag;
-    public int healthPoints, currentHealth;
+    public GameObject deathScreen;
+    public AudioController audioController;
+    
     public void Start()
     {
         haveAnEnemy = false;
-        currentHealth = healthPoints;
+        
     }
     private void OnTriggerStay(Collider other)
     {
@@ -22,8 +25,20 @@ public class Trigger : MonoBehaviour
             if(haveAnEnemy)
             {
                 Destroy(other.gameObject);
+                audioController.SushiEliminated();
                 haveAnEnemy = false;
             }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        hp.currentHp -= 1;
+        Destroy(other.gameObject);
+        if(hp.currentHp <= 0)
+        {
+            Time.timeScale = 0;
+            deathScreen.SetActive(true);
         }
     }
 }

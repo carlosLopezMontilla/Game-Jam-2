@@ -8,9 +8,13 @@ public class Menu : MonoBehaviour
 {
     public TextMeshProUGUI text;
     public GameObject death, pause, GOtext;
+    public Enemy enemy;
+
     public void Play()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 1;
+        
     }
     public void Quit()
     {
@@ -20,6 +24,7 @@ public class Menu : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
     }
     public void Back()
     {
@@ -35,12 +40,12 @@ public class Menu : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKey(KeyCode.Space))
+       /* if(Input.GetKey(KeyCode.Space))
             {
             GOtext.SetActive(true);
             death.SetActive(true);
             text.text = "You died";
-        }
+        }*/
         if(Input.GetKey(KeyCode.Escape))
         {
             Time.timeScale = 0;

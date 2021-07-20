@@ -1,0 +1,1540 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1110; Version 2004; 64bit' Language: 'es' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity/Game Jam 2/Game-Jam-2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51585
+Successfully changed project path to: D:/Unity/Game Jam 2/Game-Jam-2
+D:/Unity/Game Jam 2/Game-Jam-2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Game Jam 2/Game-Jam-2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.7111
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001486 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 28.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.660 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2883.
+Total: 1.944900 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.101000 ms MarkObjects: 1.547800 ms  DeleteObjects: 0.062800 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.2 MB.
+System memory in use after: 62.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2883.
+Total: 1.836600 ms (FindLiveObjects: 0.301700 ms CreateObjectMapping: 0.072800 ms MarkObjects: 1.445700 ms  DeleteObjects: 0.015400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Scene1.unity
+  artifactKey: Guid(0b8f110b382746949ad65f84fb72bf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene1.unity using Guid(0b8f110b382746949ad65f84fb72bf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d4bcf3379ef05994cbc3b534600213') in 0.009195 seconds
+  Import took 0.013335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.139445 seconds.
+  path: Assets/Audio/Canción base.mp3
+  artifactKey: Guid(0ba4d11d38ab26840816338619ead5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Canción base.mp3 using Guid(0ba4d11d38ab26840816338619ead5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15119983b9d90d1607b506b839f8d410') in 0.078586 seconds
+  Import took 0.082003 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000885 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.626 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.2 MB.
+System memory in use after: 111.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2895.
+Total: 2.079800 ms (FindLiveObjects: 0.277000 ms CreateObjectMapping: 0.098500 ms MarkObjects: 1.690900 ms  DeleteObjects: 0.012400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.422886 seconds.
+  path: Assets/Presets/AudioCompressedInMemory.preset
+  artifactKey: Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b377769634ea4f39f1404b333ca53e44') in 0.020626 seconds
+  Import took 0.024132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Presets/AudioStreaming.preset
+  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada29ca88ef50aadc36d10b74f6b2311') in 0.005321 seconds
+  Import took 0.007895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Presets/NormalTexture.preset
+  artifactKey: Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/NormalTexture.preset using Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b7ac84c3a5a583e9418ea0f87127b3') in 0.006942 seconds
+  Import took 0.009603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Presets/UtilityTexture.preset
+  artifactKey: Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/UtilityTexture.preset using Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492a7150214ac80196fe477a31cc5bc5') in 0.007279 seconds
+  Import took 0.010374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.353622 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(7c223cde49a5a874298f549763b76e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(7c223cde49a5a874298f549763b76e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e96f249ce1bee2ac38c5b905f02cbf') in 0.002448 seconds
+  Import took 0.005789 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2895.
+Total: 2.693900 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.130800 ms MarkObjects: 2.249800 ms  DeleteObjects: 0.012100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 599.810733 seconds.
+  path: Assets/Scenes/Scene1.unity
+  artifactKey: Guid(0b8f110b382746949ad65f84fb72bf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene1.unity using Guid(0b8f110b382746949ad65f84fb72bf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7791d1c23db550dbf628df57bdb3145d') in 0.009975 seconds
+  Import took 0.013722 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000799 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.629 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.3 MB.
+System memory in use after: 111.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2898.
+Total: 2.132500 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.111900 ms MarkObjects: 1.725100 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.186990 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e888497c69967588f0d5bb0efb3b79a') in 0.009264 seconds
+  Import took 0.013060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.080646 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a2ec7d56ecd59644b77327c004a4df') in 0.017480 seconds
+  Import took 0.021704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e707aa8fab682d8bf5ba0fe9d5a4de5') in 0.014165 seconds
+  Import took 0.017757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cebdb683d738ff5249b956048130977') in 0.008664 seconds
+  Import took 0.011655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d41b8fb25fdad7870c24b826359bb5') in 0.006642 seconds
+  Import took 0.009742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5a07df1caff4615528b15a27b19103') in 0.006231 seconds
+  Import took 0.008830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.836449 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d321a18770b37c85089d0a0a6d7c503') in 0.131466 seconds
+  Import took 0.145996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.182175 seconds.
+  path: Assets/_Scripts/Retroceso.cs
+  artifactKey: Guid(1a9c51e760b77664786eacadbdb14115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Retroceso.cs using Guid(1a9c51e760b77664786eacadbdb14115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8a652ca8b4fe5964b5b7996adea3c4') in 0.008392 seconds
+  Import took 0.011815 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.681 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.6 MB.
+System memory in use after: 113.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2943.
+Total: 2.337300 ms (FindLiveObjects: 0.299600 ms CreateObjectMapping: 0.071800 ms MarkObjects: 1.949900 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.6 MB.
+System memory in use after: 113.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2946.
+Total: 1.924800 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.073400 ms MarkObjects: 1.565300 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.416050 seconds.
+  path: Assets/_Scripts/Retroceso.cs
+  artifactKey: Guid(1a9c51e760b77664786eacadbdb14115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Retroceso.cs using Guid(1a9c51e760b77664786eacadbdb14115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c198a97b5b9ea7107f0f3f59dd563d6b') in 0.004729 seconds
+  Import took 0.007855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.583836 seconds.
+  path: Assets/_Scripts/EnemyMov.cs
+  artifactKey: Guid(731e85aed4b4b04448d7280d1795f8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/EnemyMov.cs using Guid(731e85aed4b4b04448d7280d1795f8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b917606f3d3c722eb32b408f84ab62b3') in 0.005791 seconds
+  Import took 0.009362 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.5 MB.
+System memory in use after: 113.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2949.
+Total: 1.954300 ms (FindLiveObjects: 0.334000 ms CreateObjectMapping: 0.053500 ms MarkObjects: 1.552400 ms  DeleteObjects: 0.013300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.813412 seconds.
+  path: Assets/Prefabs/0.prefab
+  artifactKey: Guid(8c91746d59d71e04cabb60bcc20d0b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/0.prefab using Guid(8c91746d59d71e04cabb60bcc20d0b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ae7aeb28b44589145324f81cfc4da9') in 0.121916 seconds
+  Import took 0.125654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.827935 seconds.
+  path: Assets/Prefabs/0.prefab
+  artifactKey: Guid(8c91746d59d71e04cabb60bcc20d0b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/0.prefab using Guid(8c91746d59d71e04cabb60bcc20d0b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab42fd57da615fb28d9022d73a1cb5c2') in 0.006497 seconds
+  Import took 0.034444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.258357 seconds.
+  path: Assets/Prefabs/0.prefab
+  artifactKey: Guid(8c91746d59d71e04cabb60bcc20d0b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/0.prefab using Guid(8c91746d59d71e04cabb60bcc20d0b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d315b5b2c5856385e50cb1d2f56c1e7') in 0.008235 seconds
+  Import took 0.011881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.303035 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36ff34c4da8faeda60a529696879123') in 0.032835 seconds
+  Import took 0.036267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.049690 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53b83d3bec53df746a77d1661642c71') in 0.009543 seconds
+  Import took 0.013252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.418448 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0626fef4f2e43f6627b803a8bd45bde6') in 0.014105 seconds
+  Import took 0.017458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.467712 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ba5cdeaa9dc9b697f3b53d6027cf20') in 0.008810 seconds
+  Import took 0.012144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.073349 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe3d3659045dafb708910c5270f6d2c') in 0.012245 seconds
+  Import took 0.016256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.345860 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3c57e3839e0313eb0e013e9415f15b') in 0.013603 seconds
+  Import took 0.018007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.035774 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97272bb2abc7d4f24121ecf9b0f374fb') in 0.009540 seconds
+  Import took 0.013154 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.720 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.8 MB.
+System memory in use after: 114.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2989.
+Total: 2.353600 ms (FindLiveObjects: 0.341500 ms CreateObjectMapping: 0.122300 ms MarkObjects: 1.871000 ms  DeleteObjects: 0.017900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.8 MB.
+System memory in use after: 114.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2992.
+Total: 2.278200 ms (FindLiveObjects: 0.371500 ms CreateObjectMapping: 0.094100 ms MarkObjects: 1.795900 ms  DeleteObjects: 0.015700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000767 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.8 MB.
+System memory in use after: 114.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2995.
+Total: 3.303500 ms (FindLiveObjects: 0.291800 ms CreateObjectMapping: 0.355600 ms MarkObjects: 2.623500 ms  DeleteObjects: 0.031500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.707622 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd0b5f8e38754ec103418c697ca8106') in 0.137687 seconds
+  Import took 0.141665 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.626 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.9 MB.
+System memory in use after: 114.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3034.
+Total: 1.856400 ms (FindLiveObjects: 0.238400 ms CreateObjectMapping: 0.069000 ms MarkObjects: 1.536600 ms  DeleteObjects: 0.011400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.063160 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425f5df377404b43ca59e2b42f71cd6d') in 0.123239 seconds
+  Import took 0.126988 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.665 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.0 MB.
+System memory in use after: 114.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3073.
+Total: 1.980000 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.064800 ms MarkObjects: 1.650700 ms  DeleteObjects: 0.013200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.640 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3076.
+Total: 2.754700 ms (FindLiveObjects: 0.428600 ms CreateObjectMapping: 0.075900 ms MarkObjects: 2.234000 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 345.154963 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930d57b7d082559cc35021265364f8e1') in 0.123935 seconds
+  Import took 0.127678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.606927 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fce42c842466cbfd81b2109ac12321c') in 0.009754 seconds
+  Import took 0.013682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.951032 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ccd13cfdee7039f42e188e19ea1d0d') in 0.010531 seconds
+  Import took 0.014597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.495366 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c6f0a628cfb4cb76dd34b890d6efb2') in 0.010397 seconds
+  Import took 0.013960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.991617 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4e2ef98b9cc832d4fa395b025c044b') in 0.008957 seconds
+  Import took 0.012316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.486019 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0915f38f26dae4d63d6e02bd1693313c') in 0.009556 seconds
+  Import took 0.013266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.165908 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa599c3b8d59626227325c1a4f8c29e') in 0.008600 seconds
+  Import took 0.012107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.881552 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd74f47c45f9bb71b106f19da8f23a41') in 0.009150 seconds
+  Import took 0.012649 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.2 MB.
+System memory in use after: 114.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3115.
+Total: 2.214500 ms (FindLiveObjects: 0.284800 ms CreateObjectMapping: 0.106100 ms MarkObjects: 1.807000 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.011832 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8245a93bf72822d6df60309a348ca05') in 0.120738 seconds
+  Import took 0.124517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.336262 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8245a93bf72822d6df60309a348ca05') in 0.009184 seconds
+  Import took 0.012816 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000764 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.621 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.4 MB.
+System memory in use after: 114.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3154.
+Total: 2.390500 ms (FindLiveObjects: 0.287800 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.012800 ms  DeleteObjects: 0.021700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.954556 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a27265f73e16a36384e0787b6322ec') in 0.119260 seconds
+  Import took 0.122906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.696269 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc41b883de78965349868fd8ab00e35c') in 0.007723 seconds
+  Import took 0.011206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.483252 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd32b88855b6e187f0057aecca30e753') in 0.008706 seconds
+  Import took 0.012497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Prefabs/Platos/rojo/PlatoRojo.prefab
+  artifactKey: Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/PlatoRojo.prefab using Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02012cf070baeea08e54f00732bba9cc') in 0.013550 seconds
+  Import took 0.016677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.501823 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1adbbeb109d9e7a3a6648e5a44c7ec') in 0.009010 seconds
+  Import took 0.012793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Prefabs/Platos/rojo/PlatoRojo.prefab
+  artifactKey: Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/PlatoRojo.prefab using Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd92c0a9b3456754f5ce14224dd35ce') in 0.008257 seconds
+  Import took 0.011160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.403464 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d47ad87c435c73ded358773ed806a8') in 0.008597 seconds
+  Import took 0.012715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Prefabs/Platos/rojo/PlatoRojo.prefab
+  artifactKey: Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/PlatoRojo.prefab using Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfd15aec5c1dbcf1fcfb75487b16f3e') in 0.007664 seconds
+  Import took 0.010367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.590844 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa88d1c80e273461c10f2820df7b3bb') in 0.009279 seconds
+  Import took 0.012902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.347512 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bea0e9b137de26f33a7b82fd96822b') in 0.008129 seconds
+  Import took 0.011723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Prefabs/Platos/rojo/PlatoRojo.prefab
+  artifactKey: Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/PlatoRojo.prefab using Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76f7d9ae67f90a908b35715d69dc844') in 0.009330 seconds
+  Import took 0.012055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.939035 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567b4bc5a7d0a7251768351084f0acbb') in 0.009046 seconds
+  Import took 0.012477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.614710 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0f86a3cf7c568c33aecf898716b1d6') in 0.008936 seconds
+  Import took 0.012286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.795176 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0605f218ba2a314f058ef89e9ddf25a3') in 0.007895 seconds
+  Import took 0.011155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.820256 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b0b7c5cc1b135b1df8c1727d44b5b0') in 0.013020 seconds
+  Import took 0.016406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.127050 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97c8ed1bceea1fa7520cf37cf30d985') in 0.008205 seconds
+  Import took 0.011789 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.716 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.5 MB.
+System memory in use after: 114.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3193.
+Total: 2.322000 ms (FindLiveObjects: 0.439100 ms CreateObjectMapping: 0.060100 ms MarkObjects: 1.809600 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.659887 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d9b23416210b574f97c0bdc282b033') in 0.130455 seconds
+  Import took 0.134142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.631048 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333c63ce4f41aa62eb078ede09883608') in 0.010894 seconds
+  Import took 0.014325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.427979 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f848fb160e705c978a809bd56519de4') in 0.008642 seconds
+  Import took 0.012298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Prefabs/Platos/rojo/PlatoRojo.prefab
+  artifactKey: Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/PlatoRojo.prefab using Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df03a002ebd5ce13596e9e3c2f4a82f7') in 0.011450 seconds
+  Import took 0.014915 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000706 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.643 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.5 MB.
+System memory in use after: 114.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3232.
+Total: 2.162500 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.071500 ms MarkObjects: 1.811100 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.639 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.6 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3235.
+Total: 2.081400 ms (FindLiveObjects: 0.271200 ms CreateObjectMapping: 0.067000 ms MarkObjects: 1.728900 ms  DeleteObjects: 0.013200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.545457 seconds.
+  path: Assets/_Scripts/Retroceso.cs
+  artifactKey: Guid(1a9c51e760b77664786eacadbdb14115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Retroceso.cs using Guid(1a9c51e760b77664786eacadbdb14115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dc636ccf558f42c557298a935deca5') in 0.004805 seconds
+  Import took 0.008255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001510 seconds.
+  path: Assets/_Scripts/Retroceso.cs
+  artifactKey: Guid(1a9c51e760b77664786eacadbdb14115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Retroceso.cs using Guid(1a9c51e760b77664786eacadbdb14115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dc636ccf558f42c557298a935deca5') in 0.001358 seconds
+  Import took 0.003471 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000701 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.6 MB.
+System memory in use after: 114.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3238.
+Total: 2.115200 ms (FindLiveObjects: 0.301400 ms CreateObjectMapping: 0.072000 ms MarkObjects: 1.725800 ms  DeleteObjects: 0.015000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.113355 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14124e5030d080325d01d33c2a4595ad') in 0.115926 seconds
+  Import took 0.119619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.243549 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904bed2c3a8195cdb7974baae2d2a573') in 0.008338 seconds
+  Import took 0.011874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.786878 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a51d9f8e763331971c6ee116044b5b') in 0.008801 seconds
+  Import took 0.012467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.574546 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22217253098951d10a82b72c6a58fc2c') in 0.008894 seconds
+  Import took 0.012223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Prefabs/Platos/rojo/PlatoRojo.prefab
+  artifactKey: Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/PlatoRojo.prefab using Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53fbeba8adb4aa17ca9d570d921363a') in 0.009043 seconds
+  Import took 0.012092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.399206 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5182a4df5fa46931c08af0788cd11d7') in 0.012392 seconds
+  Import took 0.015972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Prefabs/Platos/rojo/PlatoRojo.prefab
+  artifactKey: Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/PlatoRojo.prefab using Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e4876028dabf31e789fe63e3281d64') in 0.009152 seconds
+  Import took 0.012215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.120330 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b899aef1e821acedaba58b9bdac92ba') in 0.008358 seconds
+  Import took 0.011729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.806552 seconds.
+  path: Assets/Prefabs/mesa.FBX
+  artifactKey: Guid(0f958134dffcc564cb2577a4ecb51cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mesa.FBX using Guid(0f958134dffcc564cb2577a4ecb51cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c297f94ea16c65b1dfffa23d892b44ef') in 0.063177 seconds
+  Import took 0.066542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Prefabs/mesa_Material _25_Height.png
+  artifactKey: Guid(e8ed123cc5157e147a7f27599bf9f547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mesa_Material _25_Height.png using Guid(e8ed123cc5157e147a7f27599bf9f547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93f539a2fd216a0eced9e0c0f4f84de') in 0.027007 seconds
+  Import took 0.029837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Prefabs/mesa_Material _25_BaseColor.png
+  artifactKey: Guid(4d11750a1ff07734b859615b81a13398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mesa_Material _25_BaseColor.png using Guid(4d11750a1ff07734b859615b81a13398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277821a73d5a9372edeebb3ad5e1ebfe') in 0.010642 seconds
+  Import took 0.013308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Prefabs/mesa_Material _25_Metallic.png
+  artifactKey: Guid(cc8b63fa2da211b4c987cf5b99572b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mesa_Material _25_Metallic.png using Guid(cc8b63fa2da211b4c987cf5b99572b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c810cb116843c53f9defbe9112b9569') in 0.009738 seconds
+  Import took 0.012964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Prefabs/mesa_Material _25_Normal.png
+  artifactKey: Guid(ed8b803e25a4ff447a525366457e9a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mesa_Material _25_Normal.png using Guid(ed8b803e25a4ff447a525366457e9a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3314af4eb62eccfb5ccedb901e78134a') in 0.012051 seconds
+  Import took 0.014929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Prefabs/mesa_Material _25_Roughness.png
+  artifactKey: Guid(217d508113cb6ef4eb3b08865d899d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mesa_Material _25_Roughness.png using Guid(217d508113cb6ef4eb3b08865d899d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8f68f9f2bb39a45ce9b8fdd8a028b1') in 0.013208 seconds
+  Import took 0.016030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.979598 seconds.
+  path: Assets/Prefabs/mesa
+  artifactKey: Guid(f120a2cf5c5bf99468ad3d7208dcdbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mesa using Guid(f120a2cf5c5bf99468ad3d7208dcdbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6136db490be1e445ceec455f8dc75df3') in 0.001699 seconds
+  Import took 0.004671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.273979 seconds.
+  path: Assets/Prefabs/Mesa
+  artifactKey: Guid(f120a2cf5c5bf99468ad3d7208dcdbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mesa using Guid(f120a2cf5c5bf99468ad3d7208dcdbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b02cb325fe0b5a5806f0713997ec063') in 0.005224 seconds
+  Import took 0.008257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.464534 seconds.
+  path: Assets/Prefabs/Mesa/MEsa.mat
+  artifactKey: Guid(8d701fca48a5a2a459cc6c42f5649ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mesa/MEsa.mat using Guid(8d701fca48a5a2a459cc6c42f5649ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c68137ffc869e34bbd9a4a2c7d12393') in 0.014356 seconds
+  Import took 0.017892 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.639 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.1 MB.
+System memory in use after: 115.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3315.
+Total: 2.668100 ms (FindLiveObjects: 0.344100 ms CreateObjectMapping: 0.119500 ms MarkObjects: 2.190200 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.688077 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f05da16291b87e3fd3df98e07c9a4eb') in 0.135187 seconds
+  Import took 0.138843 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000764 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.3 MB.
+System memory in use after: 115.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3354.
+Total: 2.513500 ms (FindLiveObjects: 0.610900 ms CreateObjectMapping: 0.097500 ms MarkObjects: 1.791200 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.774465 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802534f21800eff9e8b82aa87c8ac3bf') in 0.121722 seconds
+  Import took 0.125399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.913778 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3293bce7c43a6790a83cc661b04b1af') in 0.009601 seconds
+  Import took 0.013119 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000729 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.716 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.3 MB.
+System memory in use after: 115.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3393.
+Total: 2.306000 ms (FindLiveObjects: 0.344100 ms CreateObjectMapping: 0.070600 ms MarkObjects: 1.878200 ms  DeleteObjects: 0.012000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.4 MB.
+System memory in use after: 115.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3396.
+Total: 2.259500 ms (FindLiveObjects: 0.318700 ms CreateObjectMapping: 0.074300 ms MarkObjects: 1.848900 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.571462 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288803339c581722648ae0f51878f167') in 0.114949 seconds
+  Import took 0.118294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Prefabs/Platos/rojo/PlatoRojo.prefab
+  artifactKey: Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/PlatoRojo.prefab using Guid(c812cbefb8304b44bb56d6fc4493816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00535a4ac2106b675d1311cdc33c78b') in 0.008385 seconds
+  Import took 0.011053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.547595 seconds.
+  path: Assets/Prefabs/Platos/azul/Plato Azul.prefab
+  artifactKey: Guid(afae161512cd47546b41435a519a9ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/Plato Azul.prefab using Guid(afae161512cd47546b41435a519a9ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178631ac26cf93071d76d113896e311a') in 0.012450 seconds
+  Import took 0.016049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a9ad2c5b10c8b7ab176a7a3695f726') in 0.013824 seconds
+  Import took 0.017218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.192809 seconds.
+  path: Assets/Prefabs/Platos/amarillo/Plato Amarillo.prefab
+  artifactKey: Guid(778fff2800ff0864db2b1e7dbab60b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/Plato Amarillo.prefab using Guid(778fff2800ff0864db2b1e7dbab60b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706ac9f372e6050d6f436d8503186db5') in 0.013140 seconds
+  Import took 0.016780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62579d93353f1d86599c5c9b5607e08c') in 0.014297 seconds
+  Import took 0.017324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.871411 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b43424e2a76646c8f6cd7b6917e22c') in 0.011457 seconds
+  Import took 0.014997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.155906 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a0572737c9e311ede6d6ada82a8502') in 0.008551 seconds
+  Import took 0.011876 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.5 MB.
+System memory in use after: 115.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3435.
+Total: 2.556800 ms (FindLiveObjects: 0.387200 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.046700 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.5 MB.
+System memory in use after: 115.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3438.
+Total: 2.303600 ms (FindLiveObjects: 0.332100 ms CreateObjectMapping: 0.076300 ms MarkObjects: 1.880500 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.5 MB.
+System memory in use after: 115.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3441.
+Total: 2.238200 ms (FindLiveObjects: 0.324400 ms CreateObjectMapping: 0.056100 ms MarkObjects: 1.844500 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.5 MB.
+System memory in use after: 115.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3444.
+Total: 2.452400 ms (FindLiveObjects: 0.425200 ms CreateObjectMapping: 0.073100 ms MarkObjects: 1.939900 ms  DeleteObjects: 0.013300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.291745 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14af450fd3cddbb605818ace90ebf08') in 0.128005 seconds
+  Import took 0.131768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.882978 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462b019da7882c11873e6e14f97ce3c8') in 0.014855 seconds
+  Import took 0.018958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.379778 seconds.
+  path: Assets/Prefabs/Platos/verde/PlatoVerde.prefab
+  artifactKey: Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/verde/PlatoVerde.prefab using Guid(608b2612a310ee8438cdb2836628d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a7ec374d7ab095e4a957cf2f30a455') in 0.014227 seconds
+  Import took 0.018079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.036551 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbf5aaaba031a5853b472efe85b8efc') in 0.011808 seconds
+  Import took 0.015251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180658 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ac78c8ae6cc52960a2d12cfa3e7beb') in 0.013048 seconds
+  Import took 0.016620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004257 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ac78c8ae6cc52960a2d12cfa3e7beb') in 0.008515 seconds
+  Import took 0.011776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.372092 seconds.
+  path: Assets/Prefabs/Platos/rojo/Plato Rojo.prefab
+  artifactKey: Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/rojo/Plato Rojo.prefab using Guid(31dae6bbd661fe144a9f891031a0a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea443d7d52870faef79a879a2cfc4a74') in 0.010994 seconds
+  Import took 0.014540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.117588 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbed20c935cececc1860bcf8fba8b52e') in 0.011725 seconds
+  Import took 0.015342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185850 seconds.
+  path: Assets/Prefabs/Platos/azul/PlatoAzul.prefab
+  artifactKey: Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/azul/PlatoAzul.prefab using Guid(6100fcb2be009244589a5418194f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83be9408325c4f2128210986b3e5f2a') in 0.012004 seconds
+  Import took 0.015773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.286993 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e68e5b18f4f252f930cab50a3818ae7') in 0.011422 seconds
+  Import took 0.015026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.181581 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb95f7dac3a778472a07c38d80eaece') in 0.011120 seconds
+  Import took 0.014766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.187494 seconds.
+  path: Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab
+  artifactKey: Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platos/amarillo/PlatoAmarillo.prefab using Guid(f6f90275ce6a9c842b8061b12a9738a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a66b96fab782b08e3e3b1523e3b9e3') in 0.012858 seconds
+  Import took 0.016444 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.640 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.7 MB.
+System memory in use after: 115.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3483.
+Total: 2.266900 ms (FindLiveObjects: 0.308600 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.888200 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.639 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.7 MB.
+System memory in use after: 115.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3486.
+Total: 2.590200 ms (FindLiveObjects: 0.335600 ms CreateObjectMapping: 0.172400 ms MarkObjects: 2.068800 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001135 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.644 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.7 MB.
+System memory in use after: 115.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3489.
+Total: 2.720200 ms (FindLiveObjects: 0.373500 ms CreateObjectMapping: 0.078300 ms MarkObjects: 2.253700 ms  DeleteObjects: 0.013800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.7 MB.
+System memory in use after: 115.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3492.
+Total: 2.744700 ms (FindLiveObjects: 0.489800 ms CreateObjectMapping: 0.104000 ms MarkObjects: 2.137500 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000800 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.639 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.6 MB.
+System memory in use after: 115.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3495.
+Total: 2.688700 ms (FindLiveObjects: 0.612500 ms CreateObjectMapping: 0.095700 ms MarkObjects: 1.967400 ms  DeleteObjects: 0.012400 ms)
+
