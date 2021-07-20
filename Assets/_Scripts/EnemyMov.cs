@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class EnemyMov : MonoBehaviour
 {
-
     public int speed;
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+    
     }
-
-    // Update is called once per frame
     void Update()
     {
         transform.position += Vector3.left * speed * Time.deltaTime;
