@@ -1538,3 +1538,102 @@ System memory in use after: 115.8 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3495.
 Total: 2.688700 ms (FindLiveObjects: 0.612500 ms CreateObjectMapping: 0.095700 ms MarkObjects: 1.967400 ms  DeleteObjects: 0.012400 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.7 MB.
+System memory in use after: 116.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3498.
+Total: 2.688600 ms (FindLiveObjects: 0.365300 ms CreateObjectMapping: 0.158600 ms MarkObjects: 2.149900 ms  DeleteObjects: 0.013900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1598.871590 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(6b656a4f7b714434786d85e0f567eb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(6b656a4f7b714434786d85e0f567eb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d27a3e24d41824ef098cc10b3da9393') in 0.009313 seconds
+  Import took 0.013036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.564503 seconds.
+  path: Assets/Sprites/Spritesheet_nigiri.png
+  artifactKey: Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Spritesheet_nigiri.png using Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61489e3f5467c197172db132a349dd94') in 0.035871 seconds
+  Import took 0.039268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.190435 seconds.
+  path: Assets/Sprites/Spritesheet_nigiri.png
+  artifactKey: Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Spritesheet_nigiri.png using Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4bc0ab48f2ac383a3dd713596b32a0') in 0.050190 seconds
+  Import took 0.054532 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2351 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 117.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3539.
+Total: 2.434600 ms (FindLiveObjects: 0.362000 ms CreateObjectMapping: 0.082100 ms MarkObjects: 1.977000 ms  DeleteObjects: 0.012900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.038419 seconds.
+  path: Assets/Sprites/Spritesheet_nigiri.png
+  artifactKey: Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Spritesheet_nigiri.png using Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04511029b808f266566f7f0325ba9ac') in 0.056998 seconds
+  Import took 0.062408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.195982 seconds.
+  path: Assets/Sprites/Spritesheet_nigiri.png
+  artifactKey: Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Spritesheet_nigiri.png using Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8204f6ef96dbecfec25d458cb8828be4') in 0.023108 seconds
+  Import took 0.027488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.458614 seconds.
+  path: Assets/Sprites/Spritesheet_nigiri.png
+  artifactKey: Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Spritesheet_nigiri.png using Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c239bc3d9041ceaed693986a4a6509') in 0.050706 seconds
+  Import took 0.054980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.262670 seconds.
+  path: Assets/Sprites/Spritesheet_nigiri.png
+  artifactKey: Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Spritesheet_nigiri.png using Guid(e96f4f051e1bd13438da5bddaf76eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522a940ed72f87cba531066da4ac9bcd') in 0.054610 seconds
+  Import took 0.058838 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
