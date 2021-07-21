@@ -31,6 +31,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2109888242449174192}
+  - {fileID: 5571851423002387678}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -75,13 +76,88 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731e85aed4b4b04448d7280d1795f8e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  backSpeed: 4
+  speed: 4
+  backSpeed: 6
   totalTime: 10
   timeToEnd: 0
   buttonPressed: 0
   discoLight: {fileID: 3480444163629383878, guid: d6c5f90ac3586aa41bd094997e7d349f, type: 3}
   spawnPoint: {fileID: 6395863051103119475, guid: 4b0d92604c497a944bc3dde303dbdfe0, type: 3}
+  uses: 1
+--- !u!1001 &1741377770449163088
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5761164354329690411}
+    m_Modifications:
+    - target: {fileID: 116179230476676600, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_Name
+      value: SUSHINIGIRI FINAL PNG_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.053433925
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.549
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+--- !u!4 &5571851423002387678 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6159143639922358158, guid: dd0baa56faab63f499f12f26eb82b615, type: 3}
+  m_PrefabInstance: {fileID: 1741377770449163088}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5761164354243452578
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class DiscoBall : MonoBehaviour
 {
-    public GameObject[] lights;
-    public int currentId;
+    public GameObject discoLight;
+    public AudioController audioController;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +17,15 @@ public class DiscoBall : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.Space))
         {
-            currentId += 1;
-            lights[currentId].SetActive(true);
-            if(currentId >= lights.Length)
-            {
-                currentId = 0;
-            }
+            discoLight.SetActive(true);
+            audioController.discoBall.Play();
+            audioController.gameMusic.Pause();
+        }
+        if(Input.GetKeyUp(KeyCode.Space))
+        {
+            discoLight.SetActive(false);
+            audioController.gameMusic.Play();
+            audioController.discoBall.Stop();
         }
     }
 }

@@ -32,6 +32,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8948402319130891191}
+  - {fileID: 5024370539011192089}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -43.606, y: 0, z: 0}
@@ -125,6 +126,80 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &2319878233903344083
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2743303110618464453}
+    m_Modifications:
+    - target: {fileID: 7317217537052843209, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_Name
+      value: SUSHI BLANCO FINAL PNG_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.48600006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.10399994
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9912342
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.12205018
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.050177656
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.006384801
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 14.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 5.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.024
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+--- !u!4 &5024370539011192089 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7317217537052843210, guid: 0b34900912ddffe4995f22664946cd2a, type: 3}
+  m_PrefabInstance: {fileID: 2319878233903344083}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8909708869549782108
 PrefabInstance:
   m_ObjectHideFlags: 0

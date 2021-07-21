@@ -7,13 +7,16 @@ public class AudioController : MonoBehaviour
 {
     public AudioSource sushiEliminated;
     public AudioSource gameMusic;
+    public AudioSource discoBall;
     
     public void SushiEliminated()
     {
         sushiEliminated.Play();
     }
-    private void Update()
+    
+    public void DiscoBall()
     {
+        discoBall.Play();
     }
 
 }

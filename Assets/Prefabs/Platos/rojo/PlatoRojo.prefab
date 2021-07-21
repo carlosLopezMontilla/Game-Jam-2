@@ -31,7 +31,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0.9396926, z: -0.34202018, w: 0}
   m_LocalPosition: {x: -0.412, y: -4.196, z: 0.041}
   m_LocalScale: {x: 1, y: 1, z: 0.78859204}
-  m_Children: []
+  m_Children:
+  - {fileID: 5560508885249911758}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -140, y: 0, z: -180}
@@ -133,3 +134,78 @@ MonoBehaviour:
   buttonPressed: 0
   discoLight: {fileID: 4592674164552047031, guid: a3c85536dbeb1254297b658e17682139, type: 3}
   spawnPoint: {fileID: 6395863051103119475, guid: 4b0d92604c497a944bc3dde303dbdfe0, type: 3}
+  uses: 1
+--- !u!1001 &796121341556328645
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8713240611850213137}
+    m_Modifications:
+    - target: {fileID: 4437371538185420556, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_Name
+      value: SUSHI NEGRO FINAL PNG_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.489
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.07850983
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.052982297
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.69453955
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7131928
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -79.223
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -80.887
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -97.035
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+--- !u!4 &5560508885249911758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5054869995610956555, guid: 42a3b12f5269af74e81492f87fab2c7c, type: 3}
+  m_PrefabInstance: {fileID: 796121341556328645}
+  m_PrefabAsset: {fileID: 0}

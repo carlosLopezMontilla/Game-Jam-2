@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
         {
             canChangeScene = true;
         }
-        if(canChangeScene)
+        if(canChangeScene && SceneManager.GetActiveScene().name != "Scene7")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             canChangeScene = false;

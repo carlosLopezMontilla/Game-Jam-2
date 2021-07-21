@@ -7,12 +7,14 @@ using TMPro;
 public class Menu : MonoBehaviour
 {
     public TextMeshProUGUI text;
-    public GameObject death, pause, GOtext;
+    public GameObject death, pause, GOtext, tutorial;
+    public AudioController audioController;
     public Enemy enemy;
 
     public void Play()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        audioController.gameMusic.Play();
         Time.timeScale = 1;
         
     }
@@ -34,8 +36,14 @@ public class Menu : MonoBehaviour
     public void Continue()
     {
         Time.timeScale = 1;
+        audioController.gameMusic.Play();
+
         GOtext.SetActive(false);
         pause.SetActive(false);
+    }
+    public void Tutorial()
+    {
+        tutorial.SetActive(true);
     }
 
     private void Update()
@@ -49,6 +57,7 @@ public class Menu : MonoBehaviour
         if(Input.GetKey(KeyCode.Escape))
         {
             Time.timeScale = 0;
+            audioController.gameMusic.Pause();
             GOtext.SetActive(true);
             pause.SetActive(true);
             text.text = "Pause";

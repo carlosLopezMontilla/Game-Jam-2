@@ -364,6 +364,8 @@ MonoBehaviour:
   death: {fileID: 0}
   pause: {fileID: 0}
   GOtext: {fileID: 0}
+  tutorial: {fileID: 0}
+  audioController: {fileID: 0}
   enemy: {fileID: 0}
 --- !u!114 &770777683
 MonoBehaviour:
@@ -378,7 +380,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sushiEliminated: {fileID: 0}
-  homeMusic: {fileID: 0}
+  gameMusic: {fileID: 0}
+  discoBall: {fileID: 0}
 --- !u!1 &922860811
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,6 +844,10 @@ PrefabInstance:
     - target: {fileID: 1201337891967287253, guid: ac59bab59c38214448aa387dba6d0b5f, type: 3}
       propertyPath: m_Name
       value: Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201337891967287253, guid: ac59bab59c38214448aa387dba6d0b5f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1201337891967287254, guid: ac59bab59c38214448aa387dba6d0b5f, type: 3}
       propertyPath: m_Pivot.x
