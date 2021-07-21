@@ -127,8 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731e85aed4b4b04448d7280d1795f8e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  backSpeed: 4
+  speed: 4
+  backSpeed: 6
   totalTime: 10
   timeToEnd: 0
   buttonPressed: 0

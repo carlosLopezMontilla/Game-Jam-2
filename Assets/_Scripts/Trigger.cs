@@ -26,7 +26,7 @@ public class Trigger : MonoBehaviour
             if(haveAnEnemy)
             {
                 Destroy(other.gameObject);
-                enemy.numbersOfEnemies -= 1;
+                enemy.numbersOfEnemiesLeft -= 1;
                 audioController.SushiEliminated();
                 haveAnEnemy = false;
             }
