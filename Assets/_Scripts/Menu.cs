@@ -7,7 +7,7 @@ using TMPro;
 public class Menu : MonoBehaviour
 {
     public TextMeshProUGUI text;
-    public GameObject death, pause, GOtext, tutorial;
+    public GameObject death, pause, tutorial;
     public AudioController audioController;
     public Enemy enemy;
 
@@ -37,8 +37,6 @@ public class Menu : MonoBehaviour
     {
         Time.timeScale = 1;
         audioController.gameMusic.Play();
-
-        GOtext.SetActive(false);
         pause.SetActive(false);
     }
     public void Tutorial()
@@ -58,9 +56,8 @@ public class Menu : MonoBehaviour
         {
             Time.timeScale = 0;
             audioController.gameMusic.Pause();
-            GOtext.SetActive(true);
             pause.SetActive(true);
-            text.text = "Pause";
+
         }
     }
 }

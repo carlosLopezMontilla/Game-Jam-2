@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Enemy : MonoBehaviour
 {
@@ -13,25 +14,28 @@ public class Enemy : MonoBehaviour
     public int idToSpawn;
     public AudioController audioController;
     public float musicDuration;
-    public int numbersOfEnemies;
+    public int numbersOfEnemiesLeft, numbersOfEnemies;
     public bool canChangeScene;
+    public TextMeshProUGUI enemiesText;
     // Start is called before the first frame update
     void Start()
     {
         canChangeScene = false;
         timeToEnd = initialTime;
+        numbersOfEnemiesLeft = numbersOfEnemies;
     }
 
     // Update is called once per frame
     void Update()
     {
         timeToEnd -= Time.deltaTime;
+        enemiesText.text = numbersOfEnemies + " / " + numbersOfEnemiesLeft;
         if (timeToEnd <= 0)
         {
             SpawnObject();
             timeToEnd = initialTime;   
         }
-        if(numbersOfEnemies <= 0)
+        if(numbersOfEnemiesLeft <= 0)
         {
             canChangeScene = true;
         }
@@ -45,7 +49,7 @@ public class Enemy : MonoBehaviour
     
     void SpawnObject()
     {
-        if(numbersOfEnemies >= 0)
+        if(numbersOfEnemiesLeft >= 0)
         {
             idToSpawn = (int)Random.Range(0, enemyPrefabs.Length);
             GameObject enemySpawned = Instantiate(enemyPrefabs[idToSpawn], enemyPosition[idToSpawn].position, Quaternion.identity);
