@@ -48,7 +48,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &5761164354329690409
 BoxCollider:
@@ -76,6 +76,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  backSpeed: 0
+  totalTime: 10
+  timeToEnd: 0
 --- !u!1001 &5761164354243452578
 PrefabInstance:
   m_ObjectHideFlags: 0
