@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -12,9 +13,12 @@ public class Enemy : MonoBehaviour
     public int idToSpawn;
     public AudioController audioController;
     public float musicDuration;
+    public int numbersOfEnemies;
+    public bool canChangeScene;
     // Start is called before the first frame update
     void Start()
     {
+        canChangeScene = false;
         timeToEnd = initialTime;
     }
 
@@ -27,12 +31,25 @@ public class Enemy : MonoBehaviour
             SpawnObject();
             timeToEnd = initialTime;   
         }
+        if(numbersOfEnemies <= 0)
+        {
+            canChangeScene = true;
+        }
+        if(canChangeScene)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            canChangeScene = false;
+        }
+
     }
     
     void SpawnObject()
     {
-        idToSpawn = (int)Random.Range(0, enemyPrefabs.Length);
-        GameObject enemySpawned = Instantiate(enemyPrefabs[idToSpawn], enemyPosition[idToSpawn].position, Quaternion.identity);
-        enemySpawned.tag = tagsId[idToSpawn];
+        if(numbersOfEnemies >= 0)
+        {
+            idToSpawn = (int)Random.Range(0, enemyPrefabs.Length);
+            GameObject enemySpawned = Instantiate(enemyPrefabs[idToSpawn], enemyPosition[idToSpawn].position, Quaternion.identity);
+            enemySpawned.tag = tagsId[idToSpawn];
+        }
     }
 }

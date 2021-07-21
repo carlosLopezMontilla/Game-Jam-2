@@ -12,6 +12,7 @@ public class Trigger : MonoBehaviour
     public GameObject deathScreen;
     public AudioController audioController;
     
+    
     public void Start()
     {
         haveAnEnemy = false;
@@ -25,6 +26,7 @@ public class Trigger : MonoBehaviour
             if(haveAnEnemy)
             {
                 Destroy(other.gameObject);
+                enemy.numbersOfEnemies -= 1;
                 audioController.SushiEliminated();
                 haveAnEnemy = false;
             }
