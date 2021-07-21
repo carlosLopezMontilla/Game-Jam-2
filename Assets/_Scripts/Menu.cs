@@ -38,6 +38,7 @@ public class Menu : MonoBehaviour
         Time.timeScale = 1;
         audioController.gameMusic.Play();
         pause.SetActive(false);
+        tutorial.SetActive(false);
     }
     public void Tutorial()
     {
