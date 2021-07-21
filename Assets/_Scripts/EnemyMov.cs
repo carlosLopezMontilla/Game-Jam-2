@@ -8,23 +8,40 @@ public class EnemyMov : MonoBehaviour
     public float totalTime;
     public float timeToEnd;
     public bool buttonPressed;
+    public GameObject discoLight;
+    public Transform spawnPoint;
+    public int uses = 1;
 
     void Start()
     {
         totalTime = 10f;
         backSpeed = 4f;
-        totalTime = timeToEnd;
+        timeToEnd = totalTime;
         buttonPressed = false;
+       
     }
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
             buttonPressed = true;
         }
-        if(buttonPressed)
+        if (buttonPressed)
         {
             transform.position += Vector3.right * speed * Time.deltaTime;
+            discoLight.SetActive(false);
+            timeToEnd -= Time.deltaTime;
+            if (timeToEnd <= 0)
+            {
+                buttonPressed = false;
+                timeToEnd = totalTime;
+            }
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                buttonPressed = false;
+                discoLight.SetActive(false);
+                
+            }
         }
         else
         {

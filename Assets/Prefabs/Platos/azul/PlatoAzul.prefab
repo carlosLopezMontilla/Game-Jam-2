@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4290577306078709711}
   - component: {fileID: 9951130464661113}
   - component: {fileID: 69197699891656260}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlatoAzul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,6 +76,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  backSpeed: 4
+  totalTime: 10
+  timeToEnd: 0
+  buttonPressed: 0
+  discoLight: {fileID: 3480444163629383878, guid: d6c5f90ac3586aa41bd094997e7d349f, type: 3}
+  spawnPoint: {fileID: 6395863051103119475, guid: 4b0d92604c497a944bc3dde303dbdfe0, type: 3}
 --- !u!1001 &2389353644576716888
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86,6 +92,10 @@ PrefabInstance:
     - target: {fileID: 1633871110031843360, guid: afae161512cd47546b41435a519a9ecc, type: 3}
       propertyPath: m_Name
       value: Plato Azul
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633871110031843360, guid: afae161512cd47546b41435a519a9ecc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2154829153005271706, guid: afae161512cd47546b41435a519a9ecc, type: 3}
       propertyPath: m_RootOrder

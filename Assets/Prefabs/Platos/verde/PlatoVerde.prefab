@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 164123923522305542}
   - component: {fileID: 8356891857425722132}
   - component: {fileID: 6751490908431522980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlatoVerde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,14 +27,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8050091473114957550}
-  m_LocalRotation: {x: -0.1839326, y: -0, z: -0, w: 0.9829389}
+  m_LocalRotation: {x: -0.371413, y: -0, z: -0, w: 0.92846775}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8948402319130891191}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -21.198, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -43.606, y: 0, z: 0}
 --- !u!54 &-6045853975626790204
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -77,6 +77,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  backSpeed: 4
+  totalTime: 10
+  timeToEnd: 0
+  buttonPressed: 0
+  discoLight: {fileID: 3480444163629383878, guid: d6c5f90ac3586aa41bd094997e7d349f, type: 3}
+  spawnPoint: {fileID: 6395863051103119475, guid: 4b0d92604c497a944bc3dde303dbdfe0, type: 3}
+  uses: 1
 --- !u!23 &6751490908431522980
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -192,6 +199,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: df2fae39f87643643a143c5d39144004, type: 3}
       propertyPath: m_Name
       value: plateprop
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df2fae39f87643643a143c5d39144004, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df2fae39f87643643a143c5d39144004, type: 3}

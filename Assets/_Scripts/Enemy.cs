@@ -10,6 +10,8 @@ public class Enemy : MonoBehaviour
     public float initialTime, timeToEnd;
     public string[] tagsId;
     public int idToSpawn;
+    public AudioController audioController;
+    public float musicDuration;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,14 +20,12 @@ public class Enemy : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {       
+    {
         timeToEnd -= Time.deltaTime;
-        
         if (timeToEnd <= 0)
         {
             SpawnObject();
-            timeToEnd = initialTime;
-            
+            timeToEnd = initialTime;   
         }
     }
     

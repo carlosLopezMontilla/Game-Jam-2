@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 516290127698530878}
   - component: {fileID: -4691275485336675717}
   - component: {fileID: 3147006131584259740}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlatoRojo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,3 +127,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  backSpeed: 4
+  totalTime: 10
+  timeToEnd: 0
+  buttonPressed: 0
+  discoLight: {fileID: 4592674164552047031, guid: a3c85536dbeb1254297b658e17682139, type: 3}
+  spawnPoint: {fileID: 6395863051103119475, guid: 4b0d92604c497a944bc3dde303dbdfe0, type: 3}
