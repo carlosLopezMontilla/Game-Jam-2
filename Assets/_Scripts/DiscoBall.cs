@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class DiscoBall : MonoBehaviour
 {
-    public GameObject discoLight;
+    public GameObject discoLight, discoBall;
     public AudioController audioController;
     public float totalTime, timeToEnd;
     public GameObject[] warningAlert;
+    public KeyCode keyCode;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,10 +21,10 @@ public class DiscoBall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.Space))
+        if(Input.GetKey(keyCode))
         {
             discoLight.SetActive(true);
-            audioController.discoBall.Play();
+            discoBall.SetActive(true);
             audioController.gameMusic.Pause();
             timeToEnd-= Time.deltaTime;
             if (timeToEnd <= 20f)
@@ -71,9 +73,15 @@ public class DiscoBall : MonoBehaviour
 
             }
         }
-        if(Input.GetKeyUp(KeyCode.Space))
+        if(Input.GetKeyUp(keyCode))
         {
-            discoLight.SetActive(false);
+            discoLight.SetActive(false); 
+            discoBall.SetActive(false); 
+            warningAlert[0].SetActive(false);
+            warningAlert[1].SetActive(false);
+            warningAlert[2].SetActive(false);
+            warningAlert[3].SetActive(false);
+            warningAlert[4].SetActive(false);
             audioController.gameMusic.Play();
             audioController.discoBall.Stop();
             timeToEnd = totalTime;

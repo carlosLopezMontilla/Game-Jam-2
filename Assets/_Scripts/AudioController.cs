@@ -10,6 +10,7 @@ public class AudioController : MonoBehaviour
     public AudioSource gameMusic;
     public AudioSource discoBall;
     public Slider volume;
+    public KeyCode keyCode;
 
     void Start()
     {
@@ -19,15 +20,21 @@ public class AudioController : MonoBehaviour
     private void Update()
     {
         gameMusic.volume = volume.value;
+
+        if(Input.GetKeyDown(keyCode))
+        {
+            discoBall.Play();
+        }
+        if(Input.GetKeyUp(keyCode))
+        {
+            discoBall.Stop();
+        }
     }
     public void SushiEliminated()
     {
         sushiEliminated.Play();
     }
     
-    public void DiscoBall()
-    {
-        discoBall.Play();
-    }
+
 
 }

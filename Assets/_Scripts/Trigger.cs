@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Trigger : MonoBehaviour
 {
+    public Transform player;
     public bool haveAnEnemy;
     public Enemy enemy;
     public PlayerPosition playerPosition;
@@ -11,6 +12,7 @@ public class Trigger : MonoBehaviour
     public string enemyTag;
     public GameObject deathScreen;
     public AudioController audioController;
+    public GameObject destroyParticles;
     
     
     public void Start()
@@ -26,6 +28,7 @@ public class Trigger : MonoBehaviour
             if(haveAnEnemy)
             {
                 Destroy(other.gameObject);
+                GameObject effect = Instantiate(destroyParticles, transform.position, Quaternion.identity);
                 enemy.numbersOfEnemiesLeft -= 1;
                 audioController.SushiEliminated();
                 haveAnEnemy = false;

@@ -82,6 +82,8 @@ MonoBehaviour:
   buttonPressed: 0
   discoLight: {fileID: 3480444163629383878, guid: d6c5f90ac3586aa41bd094997e7d349f, type: 3}
   spawnPoint: {fileID: 6395863051103119475, guid: 4b0d92604c497a944bc3dde303dbdfe0, type: 3}
+  uses: 1
+  keyCode: 335
 --- !u!1001 &6952465232902973128
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class EnemyMov : MonoBehaviour
     public GameObject discoLight;
     public Transform spawnPoint;
     public int uses = 1;
+    public KeyCode keyCode;
 
     void Start()
     {
@@ -22,7 +23,7 @@ public class EnemyMov : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(keyCode))
         {
             buttonPressed = true;
         }
@@ -36,7 +37,7 @@ public class EnemyMov : MonoBehaviour
                 buttonPressed = false;
                 timeToEnd = totalTime;
             }
-            if (Input.GetKeyUp(KeyCode.Space))
+            if (Input.GetKeyUp(keyCode))
             {
                 buttonPressed = false;
                 discoLight.SetActive(false);

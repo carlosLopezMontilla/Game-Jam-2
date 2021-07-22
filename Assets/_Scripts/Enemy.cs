@@ -49,7 +49,7 @@ public class Enemy : MonoBehaviour
     
     void SpawnObject()
     {
-        if(numbersOfEnemiesLeft >= 0)
+        if(numbersOfEnemiesLeft >= 1)
         {
             idToSpawn = (int)Random.Range(0, enemyPrefabs.Length);
             GameObject enemySpawned = Instantiate(enemyPrefabs[idToSpawn], enemyPosition[idToSpawn].position, Quaternion.identity);

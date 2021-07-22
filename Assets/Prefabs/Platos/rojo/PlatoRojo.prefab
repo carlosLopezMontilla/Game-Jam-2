@@ -135,6 +135,7 @@ MonoBehaviour:
   discoLight: {fileID: 4592674164552047031, guid: a3c85536dbeb1254297b658e17682139, type: 3}
   spawnPoint: {fileID: 6395863051103119475, guid: 4b0d92604c497a944bc3dde303dbdfe0, type: 3}
   uses: 1
+  keyCode: 335
 --- !u!1001 &796121341556328645
 PrefabInstance:
   m_ObjectHideFlags: 0
