@@ -2107,3 +2107,57 @@ Received Import Request.
 Start importing Assets/Scenes/Scene1.unity using Guid(0b8f110b382746949ad65f84fb72bf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992d5a0dbf3d050ed26523485e62c88f') in 0.004455 seconds
   Import took 0.009300 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 318.669026 seconds.
+  path: Assets/Prefabs/Ventana/v3
+  artifactKey: Guid(bd3ef711e99a2554d9402a49980c03f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ventana/v3 using Guid(bd3ef711e99a2554d9402a49980c03f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22cc137ca43f7870e32b0dda6be7147') in 0.010696 seconds
+  Import took 0.015738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 399.340709 seconds.
+  path: Assets/Prefabs/Ventana/New Folder
+  artifactKey: Guid(276899b1dc2410c44be42c9c66255baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ventana/New Folder using Guid(276899b1dc2410c44be42c9c66255baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5425e18fe2172aefba77a45346a58621') in 0.011256 seconds
+  Import took 0.016054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.497545 seconds.
+  path: Assets/Prefabs/Palillos y cuenco
+  artifactKey: Guid(1882e1a96f2ed79439eb505bbc9b34f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Palillos y cuenco using Guid(1882e1a96f2ed79439eb505bbc9b34f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673c54abc4d39680b1399da65df4ec33') in 0.012878 seconds
+  Import took 0.018115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.829616 seconds.
+  path: Assets/Prefabs/Palillos y cuenco/New Folder
+  artifactKey: Guid(b035f680a8c60a24ba4c944447edc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Palillos y cuenco/New Folder using Guid(b035f680a8c60a24ba4c944447edc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd397f8af5e49007d06edc4a23700d8f') in 0.004071 seconds
+  Import took 0.009147 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.1 MB.
+System memory in use after: 121.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3401.
+Total: 3.608100 ms (FindLiveObjects: 0.369500 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.424900 ms  DeleteObjects: 0.740700 ms)
+
